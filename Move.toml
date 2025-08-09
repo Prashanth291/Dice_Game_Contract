@@ -1,0 +1,15 @@
+[package]
+name = "DICE_GAME_CONTRACT"
+version = "1.0.0"
+authors = []
+
+[addresses]
+SendMessage = "0x00caf4dd8e8742f5269e74c16ef4f9ca3def56f3673cd36fe8fee75625f5b6b6"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
